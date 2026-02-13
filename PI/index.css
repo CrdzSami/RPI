@@ -1,0 +1,54 @@
+#back {
+    background-color: darkgray !important;
+    background-image: url("fundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+}
+.conteiner-fluid {
+    padding-top: 50px; 
+    padding-left: 150px;
+}
+.teste {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+#start {
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    margin-top: 20px;
+    padding: 40px;
+    width: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid white;
+    border-radius: 30px 100px;
+    cursor: pointer;
+}
+#start:hover {
+    color: black;
+    background-color: #ff5c00;
+    border-color: black;
+}
+.button {
+    color: white;
+    background-color: black;
+    font-size: xx-large;
+    margin-top: 30px; /* Espaço entre os botões */
+    padding: 10px;
+    width: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid white;
+    border-radius: 30px 100px;
+    cursor: pointer;
+}
+.button:hover {
+    color: black;
+    background-color: #ff5c00;
+    border-color: black;
+}
+

@@ -1,0 +1,19 @@
+body{
+    background-color: darkgray !important;
+}
+.dark{
+    margin-top: 150px;
+    margin-left: 500px;
+    font-size: 30px;
+    text-align: left;
+}
+.set{
+    margin-top: 70px;
+    margin-left: 500px;
+    font-size: 30px;
+    text-align: left;
+}
+#title{
+   text-align: center;
+   margin-top: 5%;
+}

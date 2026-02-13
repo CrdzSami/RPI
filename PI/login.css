@@ -1,0 +1,38 @@
+body{
+    background-color: darkgray !important;
+}
+
+.form-floating{
+    width: 500px;
+    color: black;
+}
+
+.batao{
+    width: 500px;
+    color: white;
+    background-color: black;
+    font-size: large;
+    padding: 10px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 7%;
+    color: white;
+}
+
+#back {
+    background-color: darkgray !important;
+    background-image: url("trono1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+}

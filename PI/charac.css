@@ -1,0 +1,13 @@
+body{
+    background-color: darkgray !important;
+}
+.empty{
+    margin-top: 250px;
+    opacity: 0.4;
+    font-size: 50px;
+    text-align: center;
+}
+#char{
+   text-align: center;
+   margin-top: 5%;
+}
