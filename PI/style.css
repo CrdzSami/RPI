@@ -1,0 +1,58 @@
+body{
+    background-color: darkgray !important;
+}
+.conteiner-fluid{
+    text-align: center !important;
+
+}
+
+#start{
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    margin-top: 10%; /*mudei para talvez ter mais responsividade*/
+    padding: 40px;
+    width: 350px;
+    border-radius: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-color: white;
+}
+.button{
+    color: white;
+    background-color: black;
+    font-size: xx-large;
+    margin-top: 40px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-color: white;
+}
+#new{
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    margin-top: 5%;
+    padding: 20px;
+    width: 80%;
+    border-radius: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-color: white;
+    align-content: center;
+}
+.empty{
+    font-size: 50px;
+    margin-top: 200px;
+    text-align: center;
+    opacity: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#char{
+    font-size: 50px;
+    margin-top: 5%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.login{
+   width: 100px;
+}
