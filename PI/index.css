@@ -51,4 +51,11 @@
     background-color: #ff5c00;
     border-color: black;
 }
-
+.inter{
+    margin-left: 50px;
+}
+.but{
+    width: 200px !important;
+    font-size: x-large;
+    margin-left: 50px;
+}

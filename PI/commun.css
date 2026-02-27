@@ -1,0 +1,64 @@
+body{
+    background-color: darkgray !important;
+}
+h4{
+     align-self: center;
+}
+h6{
+    opacity: 0.5;
+    margin-left: 2%;
+    align-self: center;
+}
+p{
+    margin-left: 2%;
+    margin-right: 3%;
+    font-size: medium;
+}
+.container{
+    border-style: 5px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 250px 130px 1fr 100px;
+}
+.recuo{
+    margin-bottom: 10%;
+}
+.entrar{
+    color: white;
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 14px;
+    padding: 2px;
+    width: 100px;
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 2%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.entrar:hover{
+    color: lightgreen;
+    background-color: darkgray;
+    border: 1px solid lightgreen;
+    border-radius: 14px;
+    padding: 2px;
+    width: 100px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    justify-content: center;
+    margin-right: 2%;
+    align-items: center;
+    justify-content: center;
+}
+#char{
+   text-align: center;
+   margin-top: 5%;
+}
