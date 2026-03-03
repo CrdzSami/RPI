@@ -1,5 +1,8 @@
 body{
     background-color: darkgray !important;
+      display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 .empty{
     margin-top: 250px;
@@ -11,4 +14,10 @@ body{
    text-align: center;
    margin-top: 5%;
 }
-
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.content {
+  flex: 1; /* empurra o footer para baixo */
+}

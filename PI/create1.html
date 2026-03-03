@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="../PI/create1.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <title>Create Character</title>
+</head>
+
+<body>
+  <header>
+    <div id="nav">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" class="nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">RPI</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="../PI/index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="../PI/start.html">Start</a></li>
+              <li class="nav-item"><a class="nav-link active" href="../PI/character.html">Characters</a></li>
+              <li class="nav-item"><a class="nav-link" href="../PI/commun.html">Community</a></li>
+              <li class="nav-item"><a class="nav-link" href="../PI/settings.html">Settings</a></li>
+              <li class="nav-item"><a class="nav-link" href="../PI/about.html">About Us</a></li>
+            </ul>
+
+            <button type="button" class="btn btn-outline-dark me-3" onclick="window.location.href='../PI/cadastro.html'">
+              Sign Up
+            </button>
+            <button class="btn btn-outline-success px-4" type="submit" onclick="window.location.href='../PI/login.html'">
+              Login
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="text-center nli">Character Sheet</h1>
+
+    <form class="container mt-4">
+
+      <!-- BASIC INFO + PHOTO -->
+      <fieldset class="mb-4">
+        <div class="info-header">
+          <legend class="title mb-0">Basic Information</legend>
+          <span class="title photo-title mb-0">Character Photo</span>
+        </div>
+
+        <div class="info-flex">
+
+          <!-- LEFT -->
+          <div class="info-left infos">
+            <label>Character Name</label>
+            <input type="text" required>
+
+            <label>Species</label>
+            <input type="text" required>
+
+            <label>Class</label>
+            <input type="text" required>
+          </div>
+
+          <!-- RIGHT -->
+          <div class="foto-container">
+            <div class="foto-preview">
+              <span>Image</span>
+            </div>
+
+            <input type="file" accept="image/*">
+          </div>
+
+        </div>
+      </fieldset>
+
+      <hr style="border: none; height: 2px; background-color: black; width: 100%; opacity: 30%;">
+
+      <!-- ATTRIBUTES -->
+      <fieldset class="mb-4">
+        <div class="atributos cont">
+          <legend class="title min">Attributes</legend>
+          <br>
+
+          <label>Strength</label>
+          <input type="number" min="1" max="5" required>
+
+          <label>Dexterity</label>
+          <input type="number" min="1" max="5" required>
+
+          <label>Constitution</label>
+          <input type="number" min="1" max="5" required>
+
+          <label>Intelligence</label>
+          <input type="number" min="1" max="5" required>
+
+          <label>Wisdom</label>
+          <input type="number" min="1" max="5" required>
+
+          <label>Charisma</label>
+          <input class="last" type="number" min="1" max="5" required>
+        </div>
+      </fieldset>
+
+      <div class="text-center">
+        <button id="sub" type="submit" class="btn-primary save">
+          Save Character
+        </button>
+      </div>
+
+    </form>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2026 Your Company. All rights reserved.</p>
+  </footer>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,104 +1,132 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: darkgray !important;
-}
+    body {
+        font-family: Arial, sans-serif;
+        background-color: darkgray !important;
+    }
 
-label{
-    margin-bottom: 10px;
-}
+    label{
+        margin-bottom: 10px;
+    }
 
-.title {
-    font-weight: bold;
-    margin-bottom: 15px;
-}
+    .title {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .ml{
+        margin-left: 10%;
+    }
 
-.info-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
+    .info-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
 
-.info-left {
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-}
+    .info-left {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
 
-.info-left input {
-    margin-bottom: 15px;
-    padding: 8px;
-}
+    .info-left input {
+        margin-bottom: 15px;
+        padding: 8px;
+    }
 
-.infos{
+    .infos{
+        display: grid;
+        grid-template-columns: 150px 70%; /* label | input */
+        gap: 12px 20px;
+        align-items: center;
+        justify-content: center;
+        width: 50%;                  /* limita largura total */
+        padding: 20px;
+        font-size: larger;
+    }
+
+    .infos input {
+    padding: 1px;
+    width: 100%;
+    }
+
+    .lab{
+        margin-right: 50%;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    .foto-container {
+        width: 40%;
+        display: grid;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 5%;
+        margin-left: 10%;
+        margin-top: 0;
+    }
+
+    .foto-preview {
+        width: 72%;
+        height: 200px;
+        border: 2px dashed #aaa;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        background-color: #f8f9fa;
+    }
+    .cont{
+        border-style: 5px solid black;
+        border-radius: 8px;
+        padding: 20px;
+        margin-top: 2%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .conta{
+        border-style: 5px solid black;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+        display: grid;
+    }
+
+    .atributos {
     display: grid;
-    grid-template-columns: 200px 70%; /* label | input */
+    grid-template-columns: 100px 210px; /* label | input */
     gap: 12px 20px;
     align-items: center;
     justify-content: center;
     width: 50%;                  /* limita largura total */
     padding: 20px;
     font-size: larger;
-}
+    
+    }
 
-.infos input {
-  padding: 6px;
-  width: 100%;
-}
-
-.lab{
-    margin-right: 40%;
-    margin-bottom: 20px;
-    margin-top: 0;
-}
-
-.foto-container {
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.foto-preview {
-    width: 72%;
-    height: 200px;
-    border: 2px dashed #aaa;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    background-color: #f8f9fa;
-}
-
-.atributos {
-  display: grid;
-  grid-template-columns: 200px 210px; /* label | input */
-  gap: 12px 20px;
-  align-items: center;
-  justify-content: center;
-  width: center;                  /* limita largura total */
-  padding: 20px;
-  font-size: larger;
-}
-
-.atributos input {
-  padding: 6px;
-  width: 100%;
-}
-#sub {
+    .atributos input {
+    padding: 1px;
     width: 100%;
-    padding: 20px;
-    border-radius: 8px;
-    margin-top: 1%;
-    border: none;
-    background-color: #4CAF50;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-}
+    }
+    #sub {
+        width: 100%;
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 1%;
+        border: none;
+        background-color: #4CAF50;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
 
-.save{
-    margin-bottom: 50px;
-    margin-top: 30px;
-    width: 30% !important;
-    justify-content: center;
-}
+    .save{
+        margin-bottom: 50px;
+        margin-top: 30px;
+        width: 30% !important;
+        justify-content: center;
+    }
+    .last{
+        margin-bottom: 5%;
+    }
+    .nli{
+        margin-top: 3%;
+    }

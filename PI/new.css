@@ -1,5 +1,8 @@
 body{
     background-color: darkgray !important;
+      min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 #new{
     color: white;
@@ -19,4 +22,11 @@ body{
     opacity: 0.4;
     font-size: 50px;
     text-align: center;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.content {
+  flex: 1; /* empurra o footer para o final */
 }

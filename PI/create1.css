@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: darkgray !important;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: larger;
+}
+
+.nli {
+  margin-top: 0.85%;
+}
+.min{
+    margin-top: 0;
+}
+
+/* ===== HEADER (TITLES ALIGNED) ===== */
+.info-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 2%;
+}
+
+/* keep right title aligned to the photo column width */
+.photo-title {
+  width: 320px; /* MUST match .foto-container width */
+  text-align: left;
+  margin-right: 12%;
+}
+
+/* ===== BASIC INFO + PHOTO ROW ===== */
+.info-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin-left: 3%;
+}
+
+/* LEFT GRID (labels + inputs) */
+.infos {
+  flex: 1;
+  width: auto;
+  display: grid;
+  grid-template-columns: 150px 1fr; /* label | input */
+  gap: 12px 20px;
+  align-items: center;
+  justify-content: start;
+  padding: 20px;
+  font-size: larger;
+}
+
+.infos input {
+  padding: 1px;
+  width: 70%;
+  box-sizing: border-box;
+}
+
+/* RIGHT PHOTO COLUMN */
+.foto-container {
+  width: 320px;          /* MUST match .photo-title width */
+  flex: 0 0 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  margin-right: 7%;
+}
+
+.foto-preview {
+  width: 100%;
+  height: 150px;
+  border: 2px dashed #aaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  background-color: #f8f9fa;
+}
+
+/* ===== ATTRIBUTES ===== */
+.cont {
+  border-style: 5px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 2%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.atributos {
+  display: grid;
+  grid-template-columns: 100px 210px; /* label | input */
+  gap: 12px 20px;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 20px;
+  font-size: larger;
+}
+
+.atributos input {
+  padding: 1px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ===== BUTTON ===== */
+#sub {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.last{
+    margin-bottom: 2px;
+}
+.save {
+  margin-bottom: 20px;
+  margin-top: 0 !important;
+  width: 30% !important;
+  justify-content: center;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .info-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .photo-title {
+    width: 100%;
+  }
+
+  .info-flex {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .foto-container {
+    width: 100%;
+    flex: 1;
+  }
+}
